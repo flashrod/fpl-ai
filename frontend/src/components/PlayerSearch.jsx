@@ -1,16 +1,24 @@
 import { useState, useEffect } from "react";
-import { getPlayers } from "../api";
 
 function PlayerSearch() {
     const [players, setPlayers] = useState([]);
     const [query, setQuery] = useState("");
 
     useEffect(() => {
-        getPlayers().then(setPlayers);
+        fetch("http://127.0.0.1:8000/players")
+            .then((res) => res.json())
+            .then((data) => {
+                if (Array.isArray(data)) {
+                    setPlayers(data); // Ensure it's an array
+                } else {
+                    setPlayers([]); // Prevent undefined issues
+                }
+            })
+            .catch(() => setPlayers([])); // Handle API failure
     }, []);
 
     const filteredPlayers = players.filter(player =>
-        player.name.toLowerCase().includes(query.toLowerCase())
+        player.full_name.toLowerCase().includes(query.toLowerCase())
     );
 
     return (
@@ -23,13 +31,15 @@ function PlayerSearch() {
                 onChange={(e) => setQuery(e.target.value)}
                 value={query}
             />
-            
+
             {/* Only show results if there's a search query */}
             {query.length > 0 && (
                 <ul className="mt-2">
                     {filteredPlayers.length > 0 ? (
                         filteredPlayers.map((player, index) => (
-                            <li key={index} className="mt-1">{player.name} - {player.predicted_points} pts</li>
+                            <li key={index} className="mt-1">
+                                {player.full_name} - {player.total_points} pts
+                            </li>
                         ))
                     ) : (
                         <li className="mt-1 text-gray-400">No players found</li>

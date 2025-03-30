@@ -1,9 +1,4 @@
 import pandas as pd
 
-
-fixtures = pd.read_json("fixtures.json")
-print(fixtures.head())  # Check if "team_a" exists
-
-
-# Print first few rows
-print(fixtures.head())
+df = pd.read_csv("predictions.csv")
+print(df.head())  # Show the first few rows

@@ -10,6 +10,12 @@ export async function getPlayers() {
     return await res.json();
 }
 
+export const getComparison = async (player1, player2) => {
+    const res = await fetch(`http://localhost:8000/compare?player1=${player1}&player2=${player2}`);
+    return res.json();
+};
+
+
 
 export async function getTransfers() {
     const response = await fetch(`${API_URL}/transfers`);
