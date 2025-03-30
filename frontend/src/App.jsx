@@ -3,6 +3,7 @@ import Transfers from "./components/Transfers";
 import Injuries from "./components/Injuries";
 import PlayerSearch from "./components/PlayerSearch";
 import PlayerComparison from "./components/PlayerComparison";
+import TeamRating from "./components/TeamRating";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
                 <Transfers />
                 <Captain />
                 <Injuries />
-                <PlayerComparison />
+                <TeamRating />
+                
             </div>
         </div>
     );

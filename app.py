@@ -1,15 +1,19 @@
-from fastapi import FastAPI, Query
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI, Query, HTTPException
 import pandas as pd
 import json
+import os
 import requests
+import numpy as np
+from typing import List
+from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-# ✅ Allow all origins for CORS
+# ✅ CORS Middleware - Move to the top
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173"],  # Change this to your frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -19,21 +23,23 @@ app.add_middleware(
 def home():
     return {"message": "API is running!"}
 
-# ✅ Fix: `/players` now includes predicted points
+
+# ✅ Players Endpoint with File Existence Check
 @app.get("/players")
 def get_players():
+    if not os.path.exists("players.csv"):
+        raise HTTPException(status_code=404, detail="❌ players.csv file not found!")
+    
     try:
         df = pd.read_csv("players.csv")
-
         df["full_name"] = df["first_name"] + " " + df["second_name"]
-
         return df[["full_name", "team", "total_points"]].to_dict(orient="records")
 
     except Exception as e:
-        return {"error": f"❌ Failed to fetch players: {str(e)}"}
+        raise HTTPException(status_code=500, detail=f"❌ Failed to fetch players: {str(e)}")
 
 
-# ✅ Fix: `/injuries` always returns a valid JSON response
+# ✅ Injuries Endpoint with API Check
 @app.get("/injuries")
 def get_injuries():
     try:
@@ -55,9 +61,13 @@ def get_injuries():
     except Exception:
         return {"injuries": []}
 
-# ✅ Fix: `/transfers` correctly calculates adjusted scores
+
+# ✅ Transfers Endpoint with File Check
 @app.get("/transfers")
 def get_transfers():
+    if not os.path.exists("predictions.csv") or not os.path.exists("fixtures.json"):
+        raise HTTPException(status_code=404, detail="❌ Required files not found!")
+
     try:
         df = pd.read_csv("predictions.csv")
         df = df.rename(columns={"player": "name"})
@@ -65,9 +75,9 @@ def get_transfers():
         with open("fixtures.json", "r") as f:
             fixtures_data = json.load(f)
 
-        opponent_defense = {1: 15, 2: 10, 3: 12, 4: 14, 5: 11}  
-
+        opponent_defense = {1: 15, 2: 10, 3: 12, 4: 14, 5: 11}
         fixture_difficulties = {}
+        
         for fixture in fixtures_data:
             player_name = fixture.get("player")
             opponent_team = fixture.get("team_a")
@@ -81,49 +91,112 @@ def get_transfers():
         return best_transfers.to_dict(orient="records")
 
     except Exception as e:
-        return {"error": f"❌ Transfers endpoint failed: {str(e)}"}
+        raise HTTPException(status_code=500, detail=f"❌ Transfers endpoint failed: {str(e)}")
 
-# ✅ Fix: `/compare` allows comparing two players with correct points & fixture difficulty
-@app.get("/compare")
-def compare_players(player1: str = Query(...), player2: str = Query(...)):
+
+# ✅ Team Builder with Valid Formation Check
+@app.get("/team_builder")
+def get_best_xi():
+    if not os.path.exists("players.csv") or not os.path.exists("fpl_players.csv"):
+        raise HTTPException(status_code=404, detail="❌ Required files not found!")
+
     try:
-        df = pd.read_csv("predictions_updated.csv")  # Using the new CSV
-        df = df.rename(columns={"player": "name"})
+        df_players = pd.read_csv("players.csv")
+        df_fpl_players = pd.read_csv("fpl_players.csv")
 
-        if "name" not in df.columns or "predicted_points" not in df.columns:
-            return {"error": "❌ Missing required columns in predictions_updated.csv!"}
+        df = df_players.merge(df_fpl_players, on="id", how="left")
+        rename_map = {"first_name_x": "first_name", "second_name_x": "second_name",
+                      "total_points_x": "total_points", "minutes_x": "minutes", "team_x": "team"}
+        df.rename(columns=rename_map, inplace=True)
 
-        # Select the two players
-        players = df[df["name"].isin([player1, player2])]
+        df["full_name"] = df["first_name"] + " " + df["second_name"]
+        df = df[df["minutes"] > 0]
+        df["points_per_game"] = df["total_points"] / (df["minutes"] / 90)
+        df["points_per_game"].replace([np.inf, -np.inf], np.nan, inplace=True)
+        df["points_per_game"].fillna(0, inplace=True)
 
-        if len(players) < 2:
-            return {"error": "❌ One or both players not found!"}
+        position_map = {1: "GK", 2: "DEF", 3: "MID", 4: "FWD"}
+        df["position"] = df["element_type"].map(position_map)
 
-        return {"players": players.to_dict(orient="records")}
+        formation = {"GK": 1, "DEF": 3, "MID": 4, "FWD": 3}
+        best_xi = []
+
+        for pos, count in formation.items():
+            pos_players = df[df["position"] == pos].nlargest(count, "points_per_game")
+            best_xi.extend(pos_players.to_dict(orient="records"))
+
+        best_xi = sorted(best_xi, key=lambda x: x["points_per_game"], reverse=True)
+        if best_xi:
+            best_xi[0]["captain"] = True
+        if len(best_xi) > 1:
+            best_xi[1]["vice_captain"] = True
+
+        return {"best_xi": best_xi}
 
     except Exception as e:
-        return {"error": f"❌ Comparison failed: {str(e)}"}
-# ✅ Fix: `/captain` now properly selects the best captain
+        raise HTTPException(status_code=500, detail=f"❌ Team Builder failed: {str(e)}")
+
+
+# ✅ Team Rating with Improved Calculation
+class TeamInput(BaseModel):
+    team: List[str]
+
+@app.post("/team_rating")
+def team_rating(team_input: TeamInput):
+    if not os.path.exists("players.csv") or not os.path.exists("fixtures.csv"):
+        raise HTTPException(status_code=404, detail="❌ Required files not found!")
+
+    try:
+        df_players = pd.read_csv("players.csv")
+        df_fixtures = pd.read_csv("fixtures.csv")
+
+        df_players["full_name"] = df_players["first_name"] + " " + df_players["second_name"]
+        team = df_players[df_players["full_name"].isin(team_input.team)]
+        if team.empty:
+            raise HTTPException(status_code=400, detail="❌ No matching players found!")
+
+        team["ppg"] = team["total_points"] / (team["minutes"] / 90)
+        team["ppg"].replace([np.inf, -np.inf], 0, inplace=True)
+        avg_ppg = team["ppg"].mean()
+
+        fixture_difficulty = df_fixtures[df_fixtures["home_team"].isin(team["team"]) | df_fixtures["away_team"].isin(team["team"])]
+        avg_fixture_difficulty = fixture_difficulty["difficulty"].mean()
+
+        rating = (team["total_points"].sum() / 10) + (avg_ppg * 10) - (avg_fixture_difficulty * 2)
+        return {"team_rating": round(rating, 2), "average_ppg": round(avg_ppg, 2), "average_fixture_difficulty": round(avg_fixture_difficulty, 2)}
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"❌ Team Rating failed: {str(e)}")
+
+
+
+
+from fastapi import FastAPI
+import pandas as pd
+
+app = FastAPI()
+
 @app.get("/captain")
 def get_captain():
     try:
-        df = pd.read_csv("predictions.csv")
-        df = df.rename(columns={"player": "name"})
-
-        fixtures_df = pd.read_csv("predicted_players.csv")
-
-        df = df.merge(fixtures_df[["name", "team_a"]], on="name", how="left")
+        # ✅ Load the fixed CSV with team_a already merged
+        df = pd.read_csv("merged_output.csv")
 
         if "team_a" not in df.columns:
-            return {"error": "❌ 'team_a' column is missing after merging!"}
+            return {"error": "❌ 'team_a' column is missing from merged_output.csv!"}
 
-        opponent_defense = {1: 15, 2: 10}
-        df["opponent_defense"] = df["team_a"].map(opponent_defense)
-        df["opponent_defense"] = df["opponent_defense"].fillna(10)
+        # ✅ Fill missing opponent values with a default (if any are still NaN)
+        df["team_a"].fillna(-1, inplace=True)  # Use -1 to indicate unknown opponent
 
+        # ✅ Define opponent defense strength (change as needed)
+        opponent_defense = {1: 15, 2: 10}  # Example mapping
+        df["opponent_defense"] = df["team_a"].map(opponent_defense).fillna(10)
+
+        # ✅ Calculate captain score
         df["captain_score"] = df["predicted_points"] - (df["opponent_defense"] / 10)
         df.fillna(0, inplace=True)
 
+        # ✅ Select the best captain
         best_captain = df.nlargest(1, "captain_score")
 
         if best_captain.empty:
@@ -132,45 +205,9 @@ def get_captain():
         return {
             "captain": best_captain.iloc[0]["name"],
             "predicted_points": best_captain.iloc[0]["predicted_points"],
-            "next_opponent": best_captain.iloc[0]["team_a"],
+            "next_opponent": int(best_captain.iloc[0]["team_a"]),  # Ensure it's an integer
             "opponent_defensive_strength": best_captain.iloc[0]["opponent_defense"]
         }
 
     except Exception as e:
         return {"error": f"❌ Captain selection failed: {str(e)}"}
-
-# ✅ Debugging route to check Salah's presence in data
-@app.get("/debug_captain")
-def debug_captain():
-    try:
-        df = pd.read_csv("predictions.csv")
-        df = df.rename(columns={"player": "name"})  
-
-        fixtures_df = pd.read_csv("predicted_players.csv")  
-
-        salah_pred = df[df["name"].str.contains("Salah", case=False, na=False)]
-        salah_fixtures = fixtures_df[fixtures_df["name"].str.contains("Salah", case=False, na=False)]
-
-        return {
-            "salah_in_predictions": salah_pred.to_dict(orient="records"),
-            "salah_in_fixtures": salah_fixtures.to_dict(orient="records"),
-        }
-
-    except Exception as e:
-        return {"error": f"❌ Debugging failed: {str(e)}"}
-    
-
-@app.get("/debug_players")
-def debug_players():
-    df_players = pd.read_csv("players.csv")
-    df_predictions = pd.read_csv("predictions.csv")
-
-    print("Players.csv Columns:", df_players.columns)
-    print("Predictions.csv Columns:", df_predictions.columns)
-
-    print("Players Sample:", df_players.head())
-    print("Predictions Sample:", df_predictions.head())
-
-    return {"message": "Check the console output for data format issues"}
-
-
