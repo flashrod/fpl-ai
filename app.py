@@ -158,6 +158,19 @@ def get_injuries():
     return {"injuries": injured_players}
 
 
+@app.get("/players")
+def get_players():
+    try:
+        df = pd.read_csv("predictions.csv")
+        df = df.rename(columns={"player": "name"})  # Standardize column names
+
+        if "name" not in df.columns or "predicted_points" not in df.columns:
+            return {"error": "❌ Missing required columns in predictions.csv!"}
+
+        return df[["name", "predicted_points"]].to_dict(orient="records")
+
+    except Exception as e:
+        return {"error": f"❌ Players endpoint failed: {str(e)}"}
 
 
 

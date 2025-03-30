@@ -5,6 +5,12 @@ export async function getCaptain() {
     return response.json();
 }
 
+export async function getPlayers() {
+    const res = await fetch("http://localhost:8000/players");
+    return await res.json();
+}
+
+
 export async function getTransfers() {
     const response = await fetch(`${API_URL}/transfers`);
     return response.json();
