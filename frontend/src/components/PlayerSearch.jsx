@@ -21,12 +21,21 @@ function PlayerSearch() {
                 placeholder="Search by name..."
                 className="w-full p-2 mt-2 text-black rounded"
                 onChange={(e) => setQuery(e.target.value)}
+                value={query}
             />
-            <ul className="mt-2">
-                {filteredPlayers.map((player, index) => (
-                    <li key={index} className="mt-1">{player.name} - {player.predicted_points} pts</li>
-                ))}
-            </ul>
+            
+            {/* Only show results if there's a search query */}
+            {query.length > 0 && (
+                <ul className="mt-2">
+                    {filteredPlayers.length > 0 ? (
+                        filteredPlayers.map((player, index) => (
+                            <li key={index} className="mt-1">{player.name} - {player.predicted_points} pts</li>
+                        ))
+                    ) : (
+                        <li className="mt-1 text-gray-400">No players found</li>
+                    )}
+                </ul>
+            )}
         </div>
     );
 }
