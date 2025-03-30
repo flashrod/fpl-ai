@@ -1,0 +1,790 @@
+name,now_cost,total_points,form,minutes,goals_scored,assists,clean_sheets,xG,xA,name
+Arsenal,54,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,65,42,0.0,600,3,2,2,3.05,0.52,Arsenal
+Arsenal,64,116,3.5,2348,3,2,10,2.70,1.21,Arsenal
+Arsenal,77,96,0.0,1839,9,3,7,9.39,1.63,Arsenal
+Arsenal,40,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,56,101,7.0,2199,1,2,10,0.75,1.19,Arsenal
+Arsenal,47,16,0.0,540,0,0,2,0.04,0.51,Arsenal
+Arsenal,48,13,0.0,323,0,0,1,0.00,0.03,Arsenal
+Arsenal,65,93,2.0,1562,6,3,8,4.49,3.12,Arsenal
+Arsenal,46,46,1.0,595,3,1,2,0.82,1.20,Arsenal
+Arsenal,82,76,4.0,1724,2,4,9,3.76,5.19,Arsenal
+Arsenal,55,117,4.5,2610,0,0,11,0.00,0.01,Arsenal
+Arsenal,62,89,6.5,2154,2,5,9,1.99,5.01,Arsenal
+Arsenal,102,107,0.0,1268,5,11,6,4.17,5.60,Arsenal
+Arsenal,62,114,5.5,2364,2,0,11,2.07,0.88,Arsenal
+Arsenal,49,85,2.0,2185,3,3,7,1.65,2.11,Arsenal
+Arsenal,43,6,1.0,77,0,0,0,0.21,0.28,Arsenal
+Arsenal,48,1,0.0,6,0,0,0,0.18,0.00,Arsenal
+Arsenal,68,100,2.0,1899,4,6,9,4.66,3.10,Arsenal
+Arsenal,61,29,0.0,703,0,1,3,0.19,0.33,Arsenal
+Arsenal,48,19,0.0,292,0,0,2,0.16,0.12,Arsenal
+Arsenal,41,7,0.0,180,0,0,0,0.00,0.00,Arsenal
+Arsenal,67,17,0.0,303,0,1,1,1.04,0.37,Arsenal
+Arsenal,58,37,0.5,921,2,1,1,0.86,0.68,Arsenal
+Arsenal,45,22,2.0,762,1,0,4,0.04,0.29,Arsenal
+Arsenal,60,68,5.5,1140,5,1,4,3.76,1.01,Arsenal
+Arsenal,45,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,45,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,40,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,45,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,40,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,45,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,15,48,6.5,0,0,0,0,0.00,0.00,Arsenal
+Arsenal,40,0,0.0,0,0,0,0,0.00,0.00,Arsenal
+Aston Villa,62,46,1.0,1131,1,2,2,1.73,2.92,Aston Villa
+Aston Villa,52,40,0.0,544,3,1,1,1.68,0.41,Aston Villa
+Aston Villa,49,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,51,11,0.0,89,0,0,0,0.65,0.03,Aston Villa
+Aston Villa,44,41,0.0,1395,1,1,2,0.23,1.00,Aston Villa
+Aston Villa,45,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,65,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,45,21,0.0,828,0,0,2,0.64,0.08,Aston Villa
+Aston Villa,45,75,6.0,2059,0,5,4,0.80,3.56,Aston Villa
+Aston Villa,50,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,57,53,0.0,622,7,0,2,5.11,0.24,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,39,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,54,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,50,30,1.0,1077,0,0,2,0.27,0.31,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,44,59,7.0,2171,1,0,3,0.65,0.42,Aston Villa
+Aston Villa,45,24,0.0,604,0,1,0,0.24,1.70,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,50,73,0.0,2430,0,0,3,0.00,0.01,Aston Villa
+Aston Villa,52,53,2.0,1775,0,3,4,2.03,2.17,Aston Villa
+Aston Villa,44,31,8.0,780,0,1,2,0.70,0.18,Aston Villa
+Aston Villa,39,5,0.0,121,0,0,0,0.00,0.02,Aston Villa
+Aston Villa,45,8,7.0,180,0,0,1,0.00,0.00,Aston Villa
+Aston Villa,42,32,0.0,1549,0,0,2,0.51,0.34,Aston Villa
+Aston Villa,54,52,6.0,1245,1,3,2,1.30,1.81,Aston Villa
+Aston Villa,55,113,3.0,2337,7,5,5,4.75,3.45,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,55,85,3.0,2491,2,4,4,2.61,5.10,Aston Villa
+Aston Villa,89,147,9.0,2052,13,6,7,13.61,1.56,Aston Villa
+Aston Villa,42,30,6.0,723,1,0,3,0.36,0.36,Aston Villa
+Aston Villa,48,41,0.0,1078,2,0,2,1.85,0.25,Aston Villa
+Aston Villa,66,74,1.0,1175,4,4,5,1.89,3.12,Aston Villa
+Aston Villa,40,6,0.0,473,0,0,0,0.04,0.13,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,40,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,44,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,45,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,45,0,0.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,54,7,1.0,168,0,0,0,0.55,0.04,Aston Villa
+Aston Villa,45,6,0.0,266,0,0,0,0.04,0.39,Aston Villa
+Aston Villa,8,36,9.0,0,0,0,0,0.00,0.00,Aston Villa
+Aston Villa,61,19,0.0,205,2,0,0,1.43,0.15,Aston Villa
+Bournemouth,43,8,0.0,84,0,0,1,0.00,0.01,Bournemouth
+Bournemouth,49,41,2.0,1239,0,3,3,0.87,0.35,Bournemouth
+Bournemouth,45,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,49,43,1.0,722,2,1,2,2.17,1.48,Bournemouth
+Bournemouth,49,75,2.0,2057,2,3,8,2.11,2.75,Bournemouth
+Bournemouth,50,68,2.0,2391,1,3,4,0.62,3.16,Bournemouth
+Bournemouth,54,32,0.0,330,2,1,2,2.73,0.26,Bournemouth
+Bournemouth,50,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,39,16,0.5,420,0,1,1,0.29,0.24,Bournemouth
+Bournemouth,45,8,0.5,61,0,0,0,0.21,0.12,Bournemouth
+Bournemouth,52,105,4.0,2537,2,6,6,0.50,1.96,Bournemouth
+Bournemouth,63,147,3.5,1934,12,6,10,9.58,3.13,Bournemouth
+Bournemouth,44,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,51,99,1.0,1510,7,4,5,7.17,2.63,Bournemouth
+Bournemouth,40,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,48,10,0.0,176,0,0,0,0.55,0.97,Bournemouth
+Bournemouth,47,15,0.5,371,0,0,1,0.24,0.43,Bournemouth
+Bournemouth,57,111,1.0,2465,7,5,7,8.06,3.91,Bournemouth
+Bournemouth,46,21,0.0,917,0,0,1,0.81,0.44,Bournemouth
+Bournemouth,48,23,1.0,229,1,1,0,1.18,1.29,Bournemouth
+Bournemouth,44,34,0.0,1032,0,0,3,0.60,0.10,Bournemouth
+Bournemouth,54,72,4.0,1500,3,6,3,5.17,2.48,Bournemouth
+Bournemouth,44,19,0.0,450,0,0,1,0.00,0.01,Bournemouth
+Bournemouth,44,65,0.5,2364,0,0,6,0.81,0.42,Bournemouth
+Bournemouth,46,72,1.0,1980,0,0,5,0.06,0.01,Bournemouth
+Bournemouth,45,71,0.5,1690,2,0,5,1.60,1.18,Bournemouth
+Bournemouth,43,8,0.0,352,0,0,0,0.00,0.04,Bournemouth
+Bournemouth,39,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,57,89,5.0,1541,6,4,8,7.77,1.42,Bournemouth
+Bournemouth,40,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,2,0.0,9,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,40,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,1,0.0,1,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,40,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,39,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,40,0,0.0,0,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,45,1,0.0,1,0,0,0,0.00,0.00,Bournemouth
+Bournemouth,11,29,3.0,0,0,0,0,0.00,0.00,Bournemouth
+Brentford,44,28,1.5,1206,0,0,2,0.72,0.44,Brentford
+Brentford,44,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,45,90,1.5,2610,2,5,5,2.28,1.21,Brentford
+Brentford,51,108,2.0,2217,2,9,8,2.42,5.36,Brentford
+Brentford,48,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,44,96,3.0,2465,0,1,4,0.00,0.09,Brentford
+Brentford,43,1,0.0,3,0,0,0,0.00,0.00,Brentford
+Brentford,43,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,49,68,1.0,2098,1,3,6,0.83,2.30,Brentford
+Brentford,53,28,0.5,728,0,1,2,0.23,1.17,Brentford
+Brentford,39,3,0.5,28,0,0,0,0.00,0.00,Brentford
+Brentford,44,7,0.5,27,0,0,0,0.15,0.00,Brentford
+Brentford,50,75,2.0,2367,1,4,6,2.38,3.96,Brentford
+Brentford,81,179,4.0,2605,15,6,6,9.23,6.88,Brentford
+Brentford,42,9,0.5,180,0,0,1,0.00,0.02,Brentford
+Brentford,48,73,6.0,2010,4,2,3,3.01,0.81,Brentford
+Brentford,49,2,0.0,23,0,0,0,0.00,0.02,Brentford
+Brentford,45,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,44,46,2.0,1830,2,0,2,0.87,0.64,Brentford
+Brentford,43,36,0.0,1100,0,2,2,0.20,2.09,Brentford
+Brentford,51,104,2.0,1562,7,4,7,5.76,1.16,Brentford
+Brentford,59,5,0.0,129,0,0,0,0.10,0.02,Brentford
+Brentford,73,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,39,2,0.0,144,0,0,0,0.00,0.00,Brentford
+Brentford,66,132,5.0,2111,13,3,6,13.51,1.46,Brentford
+Brentford,44,26,0.5,781,0,0,0,0.62,0.40,Brentford
+Brentford,45,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,45,35,0.0,443,2,1,0,2.49,0.54,Brentford
+Brentford,41,38,0.5,1774,0,1,2,0.80,0.44,Brentford
+Brentford,44,1,0.0,3,0,0,0,0.00,0.00,Brentford
+Brentford,49,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,40,1,0.0,4,0,0,0,0.00,0.00,Brentford
+Brentford,45,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,45,7,0.0,105,0,0,0,0.12,0.04,Brentford
+Brentford,40,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,8,41,4.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,45,4,0.0,30,0,0,0,0.00,0.07,Brentford
+Brentford,40,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,45,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brentford,40,0,0.0,0,0,0,0,0.00,0.00,Brentford
+Brighton,51,39,1.0,613,2,1,1,1.47,1.60,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,50,61,1.5,1948,2,1,7,2.93,1.03,Brighton
+Brighton,40,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,49,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,42,38,0.0,1560,0,1,4,0.69,0.64,Brighton
+Brighton,49,51,4.5,1689,1,1,2,0.56,1.72,Brighton
+Brighton,50,3,0.0,97,0,0,0,0.08,0.04,Brighton
+Brighton,65,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,49,50,3.5,1252,2,1,5,1.35,1.24,Brighton
+Brighton,50,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,43,17,0.0,900,0,0,1,0.05,0.23,Brighton
+Brighton,56,111,5.0,1698,8,6,6,7.11,2.61,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,44,40,0.0,762,2,2,2,0.38,0.53,Brighton
+Brighton,65,3,0.5,37,0,0,0,0.07,0.02,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,50,5,0.0,169,0,0,1,0.16,0.15,Brighton
+Brighton,51,76,2.0,1257,5,4,3,3.31,3.61,Brighton
+Brighton,65,118,1.5,2312,7,4,6,7.28,3.66,Brighton
+Brighton,44,4,0.0,9,0,0,0,0.00,0.53,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,40,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,44,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,49,1,0.0,8,0,0,0,0.00,0.00,Brighton
+Brighton,41,9,0.0,180,0,0,1,0.00,0.00,Brighton
+Brighton,55,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,45,77,5.0,2330,1,1,6,1.22,1.12,Brighton
+Brighton,43,58,0.0,1642,0,0,6,0.47,1.29,Brighton
+Brighton,45,82,1.0,2430,0,1,6,0.00,0.01,Brighton
+Brighton,43,26,1.5,615,0,0,3,0.02,0.21,Brighton
+Brighton,55,92,1.0,1482,7,4,6,6.66,1.11,Brighton
+Brighton,47,30,0.5,483,1,2,1,0.50,0.22,Brighton
+Brighton,54,19,0.5,380,0,1,1,0.27,0.53,Brighton
+Brighton,50,47,3.0,1437,0,1,6,1.54,2.05,Brighton
+Brighton,50,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,39,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,51,95,3.5,1651,5,6,6,4.57,1.67,Brighton
+Brighton,44,19,0.0,385,1,0,2,0.44,0.31,Brighton
+Brighton,55,25,0.0,468,1,1,2,1.15,1.24,Brighton
+Brighton,40,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,39,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,40,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,40,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,55,9,1.5,251,0,0,0,0.32,0.72,Brighton
+Brighton,11,54,6.5,0,0,0,0,0.00,0.00,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Brighton,45,0,0.0,0,0,0,0,0.00,0.00,Brighton
+Chelsea,45,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,42,7,1.0,332,0,0,0,0.00,0.08,Chelsea
+Chelsea,39,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,39,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,49,73,3.0,2541,1,3,7,0.63,2.38,Chelsea
+Chelsea,44,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,44,67,0.5,1355,3,1,3,1.42,0.56,Chelsea
+Chelsea,47,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,44,72,3.5,2430,1,1,6,0.74,1.19,Chelsea
+Chelsea,52,93,8.5,2255,4,2,5,2.13,1.98,Chelsea
+Chelsea,54,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,49,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,55,14,0.5,193,0,1,0,0.22,0.20,Chelsea
+Chelsea,47,93,4.0,2136,4,6,5,4.50,4.96,Chelsea
+Chelsea,59,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,40,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,49,41,0.5,1545,0,1,2,1.33,1.44,Chelsea
+Chelsea,48,24,1.0,678,1,1,0,0.19,0.60,Chelsea
+Chelsea,43,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,16,0.5,538,0,1,1,0.18,0.31,Chelsea
+Chelsea,63,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,60,100,0.0,1449,7,4,3,7.58,2.23,Chelsea
+Chelsea,47,3,0.0,71,0,0,0,0.00,0.02,Chelsea
+Chelsea,61,7,0.0,145,0,0,0,0.24,0.66,Chelsea
+Chelsea,77,108,0.0,1735,9,6,8,10.71,1.65,Chelsea
+Chelsea,57,58,2.5,856,3,2,2,4.95,0.98,Chelsea
+Chelsea,108,181,0.5,2442,14,8,6,14.76,7.55,Chelsea
+Chelsea,44,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,44,7,0.0,176,0,0,1,0.16,0.15,Chelsea
+Chelsea,45,86,6.0,2070,0,0,5,0.00,0.01,Chelsea
+Chelsea,42,50,4.0,1086,1,1,4,0.85,0.17,Chelsea
+Chelsea,43,26,3.5,1172,0,0,2,0.44,0.18,Chelsea
+Chelsea,62,68,2.5,1424,2,5,4,1.56,2.79,Chelsea
+Chelsea,63,69,2.0,1524,3,4,4,2.04,3.03,Chelsea
+Chelsea,40,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,42,18,0.0,540,0,0,1,0.00,0.00,Chelsea
+Chelsea,59,24,0.0,362,1,2,1,2.30,0.45,Chelsea
+Chelsea,45,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,7,1.0,84,0,1,0,0.13,0.26,Chelsea
+Chelsea,40,4,0.0,168,0,0,0,0.22,0.01,Chelsea
+Chelsea,15,31,4.5,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,1,0.0,7,0,0,0,0.00,0.00,Chelsea
+Chelsea,40,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,45,1,0.0,1,0,0,0,0.06,0.00,Chelsea
+Chelsea,40,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Chelsea,40,0,0.0,0,0,0,0,0.00,0.00,Chelsea
+Crystal Palace,59,35,2.0,698,1,2,2,3.45,0.80,Crystal Palace
+Crystal Palace,46,2,0.0,49,0,0,0,0.05,0.26,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,48,19,0.0,443,0,1,1,0.40,0.11,Crystal Palace
+Crystal Palace,44,53,6.0,1336,0,1,6,0.47,0.10,Crystal Palace
+Crystal Palace,43,1,0.0,90,0,0,0,0.00,0.02,Crystal Palace
+Crystal Palace,43,16,0.0,392,0,0,1,0.01,0.13,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,67,86,3.0,1925,2,6,8,6.03,3.29,Crystal Palace
+Crystal Palace,47,101,5.0,2430,3,2,9,1.50,1.18,Crystal Palace
+Crystal Palace,46,106,10.0,2520,0,0,9,0.01,0.02,Crystal Palace
+Crystal Palace,42,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,49,53,0.0,1636,0,4,7,0.88,2.10,Crystal Palace
+Crystal Palace,51,32,1.0,972,0,0,3,0.84,1.01,Crystal Palace
+Crystal Palace,48,38,3.0,1538,0,0,5,0.94,1.33,Crystal Palace
+Crystal Palace,75,123,0.0,2129,12,2,7,11.44,2.13,Crystal Palace
+Crystal Palace,44,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,39,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,48,97,6.0,2399,0,4,10,1.23,3.25,Crystal Palace
+Crystal Palace,51,112,6.0,2344,3,5,9,4.11,2.36,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,46,12,0.0,95,0,0,0,0.17,0.14,Crystal Palace
+Crystal Palace,43,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,47,22,2.0,840,0,0,2,0.25,1.40,Crystal Palace
+Crystal Palace,39,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,56,113,11.0,1927,7,4,8,7.85,4.88,Crystal Palace
+Crystal Palace,44,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,45,22,1.0,311,1,0,0,0.49,0.31,Crystal Palace
+Crystal Palace,45,2,0.0,4,0,0,0,0.02,0.01,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,45,93,6.0,2245,1,2,9,2.61,0.54,Crystal Palace
+Crystal Palace,40,2,0.0,11,0,0,0,0.00,0.02,Crystal Palace
+Crystal Palace,45,0,0.0,0,0,0,0,0.00,0.00,Crystal Palace
+Crystal Palace,47,9,1.0,8,1,0,0,0.32,0.00,Crystal Palace
+Crystal Palace,8,61,9.0,0,0,0,0,0.00,0.00,Crystal Palace
+Everton,53,6,0.5,166,0,0,0,0.11,0.09,Everton
+Everton,51,67,2.0,1980,2,1,9,3.20,1.08,Everton
+Everton,51,62,2.0,920,6,0,2,5.35,0.17,Everton
+Everton,48,67,2.0,1806,0,1,7,0.75,0.25,Everton
+Everton,54,59,0.0,1571,3,2,8,6.05,0.63,Everton
+Everton,43,3,0.0,196,0,0,0,0.62,0.01,Everton
+Everton,48,70,4.5,2266,0,3,8,1.05,1.71,Everton
+Everton,49,24,2.0,858,0,1,2,0.14,0.97,Everton
+Everton,52,58,6.0,1498,1,2,4,3.07,2.32,Everton
+Everton,40,1,0.0,5,0,0,0,0.00,0.00,Everton
+Everton,43,17,0.5,468,0,1,0,0.23,0.14,Everton
+Everton,39,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,38,33,0.0,812,2,0,2,0.43,0.02,Everton
+Everton,49,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,51,65,0.0,1140,3,5,4,0.87,3.96,Everton
+Everton,44,85,2.0,2362,0,2,8,0.39,1.61,Everton
+Everton,52,81,0.0,1874,6,0,11,3.58,1.03,Everton
+Everton,44,7,0.0,124,0,0,0,0.07,0.30,Everton
+Everton,51,116,2.5,2610,0,1,9,0.00,0.18,Everton
+Everton,49,95,2.0,2601,1,1,9,1.14,1.96,Everton
+Everton,49,0,0.0,11,0,0,0,0.07,0.00,Everton
+Everton,44,80,0.5,1551,1,4,7,0.27,1.82,Everton
+Everton,49,19,1.0,323,1,1,0,0.97,0.35,Everton
+Everton,50,44,3.0,1229,0,1,6,2.15,1.96,Everton
+Everton,45,40,6.0,848,2,0,2,0.56,0.26,Everton
+Everton,44,2,0.0,47,0,0,0,0.37,0.00,Everton
+Everton,45,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,40,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,40,0,0.0,90,0,0,0,0.00,0.00,Everton
+Everton,50,39,0.0,1257,1,0,5,1.13,0.59,Everton
+Everton,45,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,45,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,5,66,4.0,0,0,0,0,0.00,0.00,Everton
+Everton,45,0,0.0,0,0,0,0,0.00,0.00,Everton
+Everton,45,0,0.0,0,0,0,0,0.00,0.00,Everton
+Fulham,50,27,0.0,483,1,1,1,1.07,0.96,Fulham
+Fulham,51,95,2.5,1722,5,2,7,4.04,1.68,Fulham
+Fulham,42,41,3.0,1863,0,0,4,0.45,0.38,Fulham
+Fulham,46,73,0.5,1396,2,5,3,3.68,3.96,Fulham
+Fulham,49,70,4.0,1570,2,6,5,3.33,3.47,Fulham
+Fulham,45,67,3.5,2444,1,0,5,0.99,0.27,Fulham
+Fulham,39,0,0.0,0,0,0,0,0.00,0.00,Fulham
+Fulham,48,22,0.5,424,1,0,1,0.15,0.92,Fulham
+Fulham,42,41,3.5,1337,0,1,3,0.38,0.47,Fulham
+Fulham,44,30,0.5,1258,0,0,1,0.51,0.06,Fulham
+Fulham,45,0,0.0,0,0,0,0,0.00,0.00,Fulham
+Fulham,56,120,4.0,2360,7,4,6,3.51,5.36,Fulham
+Fulham,50,94,7.0,2610,0,2,5,0.00,0.02,Fulham
+Fulham,48,42,0.0,1742,0,2,3,0.82,1.13,Fulham
+Fulham,40,0,0.0,0,0,0,0,0.00,0.00,Fulham
+Fulham,55,73,4.0,799,6,1,2,4.81,0.19,Fulham
+Fulham,55,118,5.0,1830,10,3,7,10.31,1.75,Fulham
+Fulham,45,0,0.0,0,0,0,0,0.00,0.00,Fulham
+Fulham,47,8,0.5,71,0,0,0,0.14,0.09,Fulham
+Fulham,50,98,3.5,2538,0,10,5,0.70,3.40,Fulham
+Fulham,50,1,0.0,1,0,0,0,0.00,0.00,Fulham
+Fulham,44,37,0.0,1262,0,2,2,1.02,0.44,Fulham
+Fulham,50,1,0.0,3,0,0,0,0.06,0.00,Fulham
+Fulham,52,63,0.0,829,5,2,2,3.29,0.94,Fulham
+Fulham,41,20,4.0,92,2,0,0,0.54,0.35,Fulham
+Fulham,44,6,0.0,168,0,0,0,0.00,0.00,Fulham
+Fulham,44,7,0.0,78,0,0,1,0.20,0.65,Fulham
+Fulham,44,1,0.0,14,0,0,0,0.00,0.00,Fulham
+Fulham,50,41,2.5,1643,0,0,4,0.16,0.43,Fulham
+Fulham,40,0,0.0,0,0,0,0,0.00,0.00,Fulham
+Fulham,11,55,5.5,0,0,0,0,0.00,0.00,Fulham
+Fulham,50,7,2.0,128,0,0,1,0.13,0.21,Fulham
+Ipswich,54,24,2.0,554,0,1,2,1.63,0.59,Ipswich
+Ipswich,47,8,0.0,125,0,0,0,0.35,0.04,Ipswich
+Ipswich,40,0,0.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,49,17,1.0,445,0,0,1,1.11,1.01,Ipswich
+Ipswich,38,15,0.5,945,0,1,0,0.72,0.24,Ipswich
+Ipswich,48,30,0.0,922,0,1,1,0.50,1.17,Ipswich
+Ipswich,51,33,0.0,605,1,2,1,1.18,0.54,Ipswich
+Ipswich,40,1,0.0,377,0,0,0,0.08,0.10,Ipswich
+Ipswich,43,51,1.0,2461,1,2,2,0.89,4.18,Ipswich
+Ipswich,56,108,2.0,2172,10,2,3,8.32,1.32,Ipswich
+Ipswich,40,1,0.0,1,0,0,0,0.00,0.00,Ipswich
+Ipswich,39,32,0.5,1665,1,0,2,1.24,0.15,Ipswich
+Ipswich,49,2,0.0,43,0,0,0,0.00,0.05,Ipswich
+Ipswich,54,30,3.0,258,2,1,0,1.09,0.11,Ipswich
+Ipswich,45,0,0.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,52,77,1.5,2225,3,2,3,2.34,1.64,Ipswich
+Ipswich,39,17,0.5,945,0,1,0,0.68,0.41,Ipswich
+Ipswich,45,0,0.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,44,9,0.0,179,0,0,0,0.00,0.01,Ipswich
+Ipswich,48,51,0.0,1977,1,1,2,0.31,1.03,Ipswich
+Ipswich,40,0,0.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,39,0,0.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,48,27,1.0,478,1,0,0,0.57,0.73,Ipswich
+Ipswich,39,19,0.0,1095,0,1,1,0.21,0.11,Ipswich
+Ipswich,43,14,0.0,540,0,0,1,0.00,0.00,Ipswich
+Ipswich,39,16,1.0,1007,0,0,1,0.03,0.02,Ipswich
+Ipswich,48,25,1.0,1201,0,0,1,0.44,0.46,Ipswich
+Ipswich,44,49,0.0,1620,0,0,1,0.00,0.01,Ipswich
+Ipswich,53,35,2.5,782,2,0,2,2.35,0.34,Ipswich
+Ipswich,39,4,0.0,136,0,0,0,0.00,0.15,Ipswich
+Ipswich,57,53,0.0,976,4,0,2,3.44,0.44,Ipswich
+Ipswich,45,46,5.5,1435,1,0,1,0.33,0.38,Ipswich
+Ipswich,39,36,2.5,2312,0,1,2,0.84,0.27,Ipswich
+Ipswich,54,43,3.5,855,0,4,1,0.94,0.94,Ipswich
+Ipswich,48,7,0.0,237,0,0,0,0.00,0.05,Ipswich
+Ipswich,40,-1,0.0,108,0,0,0,0.00,0.02,Ipswich
+Ipswich,5,16,1.0,0,0,0,0,0.00,0.00,Ipswich
+Ipswich,45,9,1.5,450,0,0,0,0.00,0.00,Ipswich
+Leicester,46,63,1.0,1312,4,2,2,3.61,2.01,Leicester
+Leicester,51,58,0.5,1312,4,0,2,3.35,1.22,Leicester
+Leicester,51,7,0.0,141,0,0,0,0.39,0.07,Leicester
+Leicester,44,32,2.0,1559,0,0,0,0.27,0.80,Leicester
+Leicester,45,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,44,4,0.0,129,0,0,0,0.00,0.19,Leicester
+Leicester,40,12,1.5,902,0,0,0,0.00,0.47,Leicester
+Leicester,48,25,2.0,450,1,0,0,0.78,0.04,Leicester
+Leicester,52,43,0.5,628,1,4,0,0.75,0.14,Leicester
+Leicester,39,35,1.5,2092,1,0,1,1.16,0.38,Leicester
+Leicester,44,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,44,54,5.5,1935,0,0,1,0.00,0.02,Leicester
+Leicester,39,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,41,48,1.5,2274,2,1,1,1.45,0.61,Leicester
+Leicester,44,32,1.5,2276,0,1,1,0.13,1.67,Leicester
+Leicester,45,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,50,60,1.0,1387,3,1,1,1.59,3.14,Leicester
+Leicester,47,19,0.5,388,0,1,1,0.55,0.22,Leicester
+Leicester,49,46,1.5,1646,0,4,1,1.74,1.23,Leicester
+Leicester,40,19,0.0,1001,0,0,1,0.14,0.13,Leicester
+Leicester,41,3,0.5,152,0,0,0,0.04,0.04,Leicester
+Leicester,40,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,40,10,0.0,540,0,0,0,0.00,0.00,Leicester
+Leicester,39,5,1.5,362,0,0,0,0.04,0.08,Leicester
+Leicester,53,100,2.0,2226,7,4,1,9.30,2.44,Leicester
+Leicester,39,11,0.0,1390,0,0,0,0.11,0.08,Leicester
+Leicester,39,2,0.0,135,0,0,0,0.00,0.00,Leicester
+Leicester,44,40,1.0,1536,0,2,0,0.23,1.53,Leicester
+Leicester,47,19,0.0,770,0,0,1,0.13,0.28,Leicester
+Leicester,51,26,0.0,576,0,2,0,0.41,1.42,Leicester
+Leicester,44,1,0.0,1,0,0,0,0.00,0.00,Leicester
+Leicester,40,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,48,57,1.5,1522,2,1,1,0.68,1.71,Leicester
+Leicester,45,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,40,0,0.0,0,0,0,0,0.00,0.00,Leicester
+Leicester,40,1,0.0,107,0,0,0,0.04,0.04,Leicester
+Leicester,5,8,0.0,0,0,0,0,0.00,0.00,Leicester
+Liverpool,56,90,3.0,1878,0,0,9,0.00,0.20,Liverpool
+Liverpool,73,135,2.0,2144,2,6,12,1.52,6.55,Liverpool
+Liverpool,45,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,47,16,0.0,364,0,0,1,0.49,0.26,Liverpool
+Liverpool,45,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,70,60,10.0,957,5,3,2,4.88,0.38,Liverpool
+Liverpool,72,72,1.0,835,5,4,6,6.16,1.06,Liverpool
+Liverpool,45,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,52,14,1.0,121,0,1,0,0.20,0.38,Liverpool
+Liverpool,46,14,1.0,137,0,0,0,0.00,0.04,Liverpool
+Liverpool,74,96,0.0,1400,8,4,5,5.92,2.72,Liverpool
+Liverpool,47,14,0.0,517,0,0,1,0.33,0.09,Liverpool
+Liverpool,50,71,2.0,2471,0,2,12,0.86,3.05,Liverpool
+Liverpool,53,70,1.0,1159,3,5,4,4.00,0.87,Liverpool
+Liverpool,40,37,0.0,720,0,0,3,0.00,0.00,Liverpool
+Liverpool,52,82,2.0,1894,1,2,9,1.09,0.80,Liverpool
+Liverpool,75,138,6.0,1845,9,6,13,7.48,3.25,Liverpool
+Liverpool,137,306,15.0,2570,27,17,12,21.45,6.94,Liverpool
+Liverpool,62,87,1.0,2110,3,4,12,2.40,3.83,Liverpool
+Liverpool,44,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,44,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,40,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,39,9,1.0,286,0,0,0,0.00,0.14,Liverpool
+Liverpool,40,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,58,76,1.0,2014,0,0,9,0.79,3.48,Liverpool
+Liverpool,64,111,1.0,1948,5,7,10,6.30,4.36,Liverpool
+Liverpool,46,32,0.0,509,0,1,3,0.12,1.10,Liverpool
+Liverpool,64,108,2.0,2610,1,1,12,1.53,0.75,Liverpool
+Liverpool,68,3,0.0,25,0,0,0,0.16,0.09,Liverpool
+Liverpool,40,1,0.0,11,0,0,0,0.00,0.00,Liverpool
+Liverpool,40,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,45,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,40,0,0.0,0,0,0,0,0.00,0.00,Liverpool
+Liverpool,45,1,0.0,10,0,0,0,0.00,0.01,Liverpool
+Liverpool,15,67,9.0,0,0,0,0,0.00,0.00,Liverpool
+Man City,53,44,0.0,1707,0,0,4,0.70,1.09,Man City
+Man City,53,25,0.0,677,0,0,3,0.22,0.17,Man City
+Man City,61,76,1.5,2037,2,4,4,2.97,3.49,Man City
+Man City,47,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,39,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,93,76,1.0,1095,2,8,5,2.69,4.64,Man City
+Man City,62,67,1.5,1156,3,4,5,0.97,2.45,Man City
+Man City,53,75,1.5,1710,0,3,5,0.00,0.02,Man City
+Man City,92,99,2.0,1625,7,3,5,4.87,5.12,Man City
+Man City,64,26,0.0,600,0,1,1,0.78,1.52,Man City
+Man City,60,106,1.5,2468,5,0,7,4.18,2.48,Man City
+Man City,148,171,4.5,2480,21,3,7,20.78,1.75,Man City
+Man City,70,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,53,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,54,80,0.5,1677,4,2,7,1.46,2.65,Man City
+Man City,43,56,1.0,1699,1,2,4,1.32,0.92,Man City
+Man City,49,45,1.0,1040,0,4,4,0.53,2.35,Man City
+Man City,46,20,0.0,123,2,0,0,1.34,0.03,Man City
+Man City,52,26,0.5,900,0,0,2,0.00,0.00,Man City
+Man City,62,2,0.0,65,0,0,0,0.00,0.09,Man City
+Man City,54,44,1.5,1459,0,0,5,1.29,0.82,Man City
+Man City,53,29,0.0,544,2,0,1,0.60,0.17,Man City
+Man City,51,13,0.0,966,0,0,0,0.12,1.34,Man City
+Man City,62,91,1.5,1561,1,10,6,4.62,5.45,Man City
+Man City,49,2,0.0,21,0,0,0,0.03,0.00,Man City
+Man City,63,55,3.5,1528,0,3,4,1.68,3.10,Man City
+Man City,45,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,45,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,40,1,0.0,95,0,0,0,0.00,0.01,Man City
+Man City,40,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,45,1,0.0,27,0,0,0,0.04,0.00,Man City
+Man City,40,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,40,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,50,14,0.5,503,0,0,2,0.02,0.09,Man City
+Man City,45,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man City,15,36,2.5,0,0,0,0,0.00,0.00,Man City
+Man City,73,38,6.5,474,4,1,2,1.16,0.87,Man City
+Man City,60,12,2.0,391,0,0,3,0.22,0.31,Man City
+Man City,60,0,0.0,0,0,0,0,0.00,0.00,Man City
+Man Utd,53,107,0.0,1591,6,7,6,4.12,3.42,Man Utd
+Man Utd,57,8,0.0,135,0,0,0,0.60,0.21,Man Utd
+Man Utd,86,152,13.0,2375,8,11,8,8.57,5.43,Man Utd
+Man Utd,43,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,47,39,1.5,1118,1,0,3,1.29,1.79,Man Utd
+Man Utd,50,83,6.5,2486,0,3,7,1.88,1.87,Man Utd
+Man Utd,52,30,2.5,776,0,1,4,0.19,1.71,Man Utd
+Man Utd,44,14,0.0,288,0,0,1,0.08,0.02,Man Utd
+Man Utd,59,78,6.5,1633,4,3,4,5.81,1.49,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,39,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,69,57,4.0,1429,3,1,3,2.78,0.82,Man Utd
+Man Utd,43,13,4.0,240,0,0,1,0.00,0.06,Man Utd
+Man Utd,49,35,0.0,1354,1,0,2,0.81,0.21,Man Utd
+Man Utd,52,32,0.0,1282,0,0,5,0.60,1.22,Man Utd
+Man Utd,44,2,0.0,99,0,0,0,0.00,0.02,Man Utd
+Man Utd,43,68,0.0,1751,2,1,6,1.33,1.21,Man Utd
+Man Utd,49,2,0.0,17,0,0,0,0.07,0.00,Man Utd
+Man Utd,63,8,0.0,243,0,0,1,0.40,0.08,Man Utd
+Man Utd,49,101,5.0,2610,0,0,8,0.00,0.19,Man Utd
+Man Utd,50,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,49,2,0.0,68,0,0,0,0.00,0.01,Man Utd
+Man Utd,65,60,1.5,1235,3,2,3,4.31,1.01,Man Utd
+Man Utd,43,12,0.5,695,0,0,0,0.70,0.07,Man Utd
+Man Utd,48,66,4.0,1995,2,0,4,2.33,0.25,Man Utd
+Man Utd,43,72,4.0,2216,0,1,6,0.61,1.56,Man Utd
+Man Utd,45,6,1.0,174,0,0,0,0.08,0.37,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,49,34,1.5,1321,1,0,3,0.47,0.51,Man Utd
+Man Utd,40,2,1.0,95,0,0,0,0.00,0.00,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,40,1,0.5,21,0,0,0,0.00,0.00,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,40,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,8,43,10.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,40,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,45,-1,0.0,222,0,0,0,0.08,0.08,Man Utd
+Man Utd,45,2,0.5,26,0,0,0,0.00,0.01,Man Utd
+Man Utd,40,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,45,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,40,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Man Utd,40,0,0.0,0,0,0,0,0.00,0.00,Man Utd
+Newcastle,40,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,54,10,0.0,150,0,0,0,0.52,0.19,Newcastle
+Newcastle,59,73,6.0,893,5,2,2,2.82,3.10,Newcastle
+Newcastle,44,7,0.0,225,0,0,1,0.03,0.02,Newcastle
+Newcastle,61,103,11.0,2424,3,6,9,2.84,4.30,Newcastle
+Newcastle,44,73,5.0,2430,0,0,9,1.10,0.79,Newcastle
+Newcastle,42,44,0.0,900,0,0,5,0.00,0.00,Newcastle
+Newcastle,74,113,0.0,2107,6,6,9,8.01,4.50,Newcastle
+Newcastle,48,102,0.0,2188,0,7,8,0.43,3.73,Newcastle
+Newcastle,44,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,93,169,2.0,2053,19,5,8,15.45,3.15,Newcastle
+Newcastle,50,101,3.0,1676,5,8,7,3.94,3.72,Newcastle
+Newcastle,60,79,3.0,2005,4,1,8,3.49,1.70,Newcastle
+Newcastle,42,12,0.0,299,0,1,0,0.41,0.11,Newcastle
+Newcastle,43,11,0.0,241,0,0,1,0.04,0.03,Newcastle
+Newcastle,44,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,45,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,40,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,45,65,7.0,1935,0,0,6,0.13,0.94,Newcastle
+Newcastle,45,30,1.0,734,0,1,2,0.60,0.22,Newcastle
+Newcastle,50,15,0.0,188,1,0,0,0.57,0.09,Newcastle
+Newcastle,42,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,49,56,6.0,1620,0,0,4,0.00,0.00,Newcastle
+Newcastle,39,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,54,66,6.0,2052,2,0,7,1.77,0.79,Newcastle
+Newcastle,39,1,0.0,12,0,0,0,0.00,0.00,Newcastle
+Newcastle,55,56,3.0,1725,1,1,7,3.15,1.19,Newcastle
+Newcastle,56,34,8.0,688,0,0,3,0.05,0.58,Newcastle
+Newcastle,45,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,47,38,1.0,801,0,2,3,0.87,0.80,Newcastle
+Newcastle,69,8,1.0,156,0,0,0,0.22,0.01,Newcastle
+Newcastle,40,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,49,10,0.0,65,0,0,0,0.00,0.02,Newcastle
+Newcastle,15,29,9.0,0,0,0,0,0.00,0.00,Newcastle
+Newcastle,45,0,0.0,0,0,0,0,0.00,0.00,Newcastle
+Nott'm Forest,42,31,0.0,812,0,1,3,0.17,0.82,Nott'm Forest
+Nott'm Forest,54,122,3.5,2531,2,1,12,0.58,1.47,Nott'm Forest
+Nott'm Forest,50,83,4.0,1978,1,6,11,1.35,3.04,Nott'm Forest
+Nott'm Forest,55,27,1.0,263,1,0,0,2.04,0.11,Nott'm Forest
+Nott'm Forest,42,5,0.0,131,0,0,0,0.07,0.00,Nott'm Forest
+Nott'm Forest,45,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,41,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,43,2,0.0,28,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,47,8,0.5,168,0,0,1,0.00,0.01,Nott'm Forest
+Nott'm Forest,49,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,48,36,2.5,1387,0,0,6,1.28,1.00,Nott'm Forest
+Nott'm Forest,53,118,9.5,1841,5,8,11,3.95,3.72,Nott'm Forest
+Nott'm Forest,66,118,5.0,2019,5,10,11,4.07,4.14,Nott'm Forest
+Nott'm Forest,53,95,6.5,1893,5,3,11,2.21,2.35,Nott'm Forest
+Nott'm Forest,45,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,47,102,4.5,2478,1,0,11,1.14,1.02,Nott'm Forest
+Nott'm Forest,44,84,3.5,1778,1,1,9,1.77,0.70,Nott'm Forest
+Nott'm Forest,45,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,50,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,42,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,40,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,43,11,0.5,270,0,1,1,0.02,0.06,Nott'm Forest
+Nott'm Forest,51,125,4.5,2610,0,1,12,0.00,0.07,Nott'm Forest
+Nott'm Forest,42,3,0.0,45,0,0,0,0.02,0.01,Nott'm Forest
+Nott'm Forest,45,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,73,174,2.0,2343,18,3,14,10.90,1.08,Nott'm Forest
+Nott'm Forest,45,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,48,53,0.5,1537,2,1,5,2.24,0.43,Nott'm Forest
+Nott'm Forest,49,120,8.5,2520,4,2,12,3.61,0.60,Nott'm Forest
+Nott'm Forest,59,42,3.0,708,2,2,1,1.52,1.85,Nott'm Forest
+Nott'm Forest,55,20,0.0,229,1,0,1,1.04,0.30,Nott'm Forest
+Nott'm Forest,45,34,0.5,616,0,0,3,0.10,0.02,Nott'm Forest
+Nott'm Forest,40,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,40,0,0.0,0,0,0,0,0.00,0.00,Nott'm Forest
+Nott'm Forest,11,43,9.5,0,0,0,0,0.00,0.00,Nott'm Forest
+Southampton,44,57,1.5,1890,0,0,2,0.00,0.03,Southampton
+Southampton,49,46,1.0,1166,2,0,1,4.88,0.54,Southampton
+Southampton,44,26,2.0,1022,0,1,0,0.36,0.43,Southampton
+Southampton,48,7,0.0,303,0,0,0,0.02,0.10,Southampton
+Southampton,44,1,0.0,26,0,0,0,0.02,0.13,Southampton
+Southampton,49,67,1.5,1821,3,0,1,2.66,1.21,Southampton
+Southampton,51,45,0.0,1246,2,3,2,3.28,0.56,Southampton
+Southampton,43,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,40,47,0.5,1901,2,0,2,0.65,0.78,Southampton
+Southampton,39,2,1.0,329,0,0,0,0.32,0.01,Southampton
+Southampton,39,15,0.0,886,0,1,0,0.11,0.67,Southampton
+Southampton,45,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,49,1,0.0,64,0,0,0,0.00,0.15,Southampton
+Southampton,39,1,0.0,12,0,0,0,0.00,0.00,Southampton
+Southampton,40,42,1.0,2119,1,0,2,1.72,0.53,Southampton
+Southampton,50,33,2.0,734,1,1,0,0.78,0.41,Southampton
+Southampton,50,17,0.5,352,0,2,0,0.15,0.48,Southampton
+Southampton,39,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,40,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,40,8,0.0,270,0,0,0,0.00,0.00,Southampton
+Southampton,43,18,1.0,968,0,1,0,0.29,2.07,Southampton
+Southampton,50,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,42,12,0.0,450,0,0,0,0.00,0.00,Southampton
+Southampton,49,39,3.5,755,3,1,0,2.84,0.24,Southampton
+Southampton,50,20,3.5,549,1,0,0,0.39,0.76,Southampton
+Southampton,40,12,0.5,804,0,0,1,0.28,0.20,Southampton
+Southampton,44,3,0.0,130,0,0,0,0.17,0.02,Southampton
+Southampton,42,39,1.0,1432,1,1,2,0.44,2.44,Southampton
+Southampton,39,5,0.0,263,0,0,0,0.00,0.10,Southampton
+Southampton,43,43,1.0,2378,0,2,2,0.49,2.15,Southampton
+Southampton,40,13,0.0,622,0,0,1,0.23,0.04,Southampton
+Southampton,47,1,0.0,71,0,0,0,0.16,0.00,Southampton
+Southampton,47,35,0.5,1520,1,0,2,0.62,1.14,Southampton
+Southampton,48,13,0.0,446,0,0,0,0.90,0.15,Southampton
+Southampton,44,56,3.5,1533,2,2,2,2.46,1.32,Southampton
+Southampton,50,61,1.5,2142,1,2,4,3.22,2.64,Southampton
+Southampton,45,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,40,3,0.0,171,0,0,0,0.01,0.14,Southampton
+Southampton,40,0,0.0,0,0,0,0,0.00,0.00,Southampton
+Southampton,49,6,1.5,141,0,0,0,0.12,0.01,Southampton
+Southampton,5,12,1.0,0,0,0,0,0.00,0.00,Southampton
+Spurs,73,87,2.0,1778,7,5,3,9.16,1.09,Spurs
+Spurs,40,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,40,1,0.0,90,0,0,0,0.00,0.00,Spurs
+Spurs,49,41,1.5,1243,2,0,3,1.36,0.82,Spurs
+Spurs,44,35,2.5,924,0,2,2,0.55,0.63,Spurs
+Spurs,48,44,0.5,1136,2,0,3,0.57,0.47,Spurs
+Spurs,50,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,43,24,0.5,720,0,0,3,0.17,0.21,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,43,24,0.0,1250,0,0,2,0.13,0.16,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,43,19,0.0,630,0,0,1,0.00,0.00,Spurs
+Spurs,46,34,1.0,1245,0,0,2,0.03,0.16,Spurs
+Spurs,50,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,62,108,1.0,1759,9,4,2,9.61,1.37,Spurs
+Spurs,62,110,0.0,2152,7,4,6,3.92,3.95,Spurs
+Spurs,49,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,74,118,0.5,1514,9,6,5,5.42,5.46,Spurs
+Spurs,53,93,0.5,2277,2,5,6,1.50,3.65,Spurs
+Spurs,41,1,0.0,121,0,0,0,0.07,0.24,Spurs
+Spurs,68,20,0.0,275,2,1,1,1.17,0.58,Spurs
+Spurs,49,44,4.5,1101,1,0,3,1.06,0.75,Spurs
+Spurs,47,60,5.0,1386,3,2,2,3.12,0.61,Spurs
+Spurs,44,6,0.5,31,0,1,0,0.04,0.00,Spurs
+Spurs,54,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,97,123,3.5,1855,7,10,4,6.66,4.69,Spurs
+Spurs,44,42,1.0,1063,1,1,3,0.28,0.94,Spurs
+Spurs,48,43,1.0,1653,0,1,2,0.31,1.14,Spurs
+Spurs,45,29,0.5,817,0,2,2,0.35,0.69,Spurs
+Spurs,50,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,48,56,2.0,1530,0,0,4,0.00,0.00,Spurs
+Spurs,62,34,0.0,504,0,3,1,1.04,1.55,Spurs
+Spurs,39,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,45,3,0.0,10,0,0,0,0.00,0.00,Spurs
+Spurs,45,14,0.0,180,0,2,0,0.20,0.55,Spurs
+Spurs,53,13,1.5,348,0,0,1,0.68,0.17,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,40,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,40,1,0.0,13,0,0,0,0.00,0.00,Spurs
+Spurs,40,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,42,12,0.0,360,0,0,1,0.00,0.01,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,45,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,11,40,5.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,40,0,0.0,0,0,0,0,0.00,0.00,Spurs
+Spurs,45,11,0.5,347,0,0,1,0.33,0.06,Spurs
+Spurs,60,10,1.5,304,0,0,2,0.78,0.11,Spurs
+West Ham,55,25,1.0,326,1,0,1,0.82,0.66,West Ham
+West Ham,45,88,2.0,2434,2,3,5,1.00,2.04,West Ham
+West Ham,50,35,1.0,1534,0,1,3,0.31,0.79,West Ham
+West Ham,53,42,0.0,834,1,4,4,2.20,0.91,West Ham
+West Ham,42,45,3.0,1539,0,0,3,0.00,0.00,West Ham
+West Ham,76,125,3.5,2187,7,8,6,6.32,4.96,West Ham
+West Ham,41,18,0.0,729,0,0,1,0.27,0.80,West Ham
+West Ham,39,26,1.0,538,0,0,2,0.11,1.22,West Ham
+West Ham,45,0,0.0,0,0,0,0,0.00,0.00,West Ham
+West Ham,44,61,1.0,1789,2,1,4,1.60,2.11,West Ham
+West Ham,40,36,0.0,1070,0,0,2,0.00,0.00,West Ham
+West Ham,43,0,0.0,0,0,0,0,0.00,0.00,West Ham
+West Ham,49,32,0.5,270,1,3,0,2.25,0.06,West Ham
+West Ham,43,66,2.0,2538,0,1,5,1.45,0.86,West Ham
+West Ham,62,74,2.0,1995,3,2,5,5.92,2.05,West Ham
+West Ham,46,7,0.0,50,0,0,0,0.03,0.12,West Ham
+West Ham,57,69,1.5,1803,4,1,4,5.04,2.23,West Ham
+West Ham,43,37,1.5,1656,0,0,2,1.26,0.38,West Ham
+West Ham,44,0,0.0,0,0,0,0,0.00,0.00,West Ham
+West Ham,49,101,6.0,2081,7,2,6,4.77,1.22,West Ham
+West Ham,61,25,2.0,810,0,1,3,0.39,1.45,West Ham
+West Ham,44,0,0.0,0,0,0,0,0.00,0.00,West Ham
+West Ham,47,9,0.0,161,0,0,0,0.13,0.12,West Ham
+West Ham,55,33,0.0,776,1,1,2,1.61,1.71,West Ham
+West Ham,48,29,0.5,1016,0,0,3,0.22,0.12,West Ham
+West Ham,67,22,0.0,366,2,1,1,1.38,0.29,West Ham
+West Ham,42,38,1.5,1143,0,0,4,0.15,0.04,West Ham
+West Ham,40,1,0.0,1,0,0,0,0.00,0.00,West Ham
+West Ham,50,39,1.0,1088,1,1,2,1.21,1.21,West Ham
+West Ham,40,22,1.0,401,0,0,2,0.11,0.14,West Ham
+West Ham,40,0,0.0,0,0,0,0,0.00,0.00,West Ham
+West Ham,45,2,0.0,47,0,0,0,0.03,0.04,West Ham
+West Ham,5,43,2.0,0,0,0,0,0.00,0.00,West Ham
+Wolves,42,12,0.0,630,0,0,0,0.00,0.00,Wolves
+Wolves,48,80,2.0,2384,3,5,4,1.92,1.82,Wolves
+Wolves,48,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,49,74,8.0,1278,2,6,5,1.13,2.44,Wolves
+Wolves,39,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,45,1,0.0,6,0,0,0,0.00,0.05,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,69,143,0.0,2143,13,4,5,6.82,4.45,Wolves
+Wolves,43,17,0.0,969,0,1,1,0.50,0.07,Wolves
+Wolves,43,53,2.0,1607,2,1,4,1.09,0.91,Wolves
+Wolves,47,28,1.0,474,0,1,0,0.55,0.35,Wolves
+Wolves,50,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,44,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,53,55,1.0,756,2,4,3,2.18,0.62,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,61,34,0.5,625,2,1,0,0.79,0.35,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,40,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,49,70,2.0,2249,3,1,3,2.37,2.32,Wolves
+Wolves,44,66,2.5,1980,0,0,5,0.00,0.01,Wolves
+Wolves,48,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,40,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,48,47,0.0,1363,1,3,1,1.30,0.87,Wolves
+Wolves,38,3,0.0,441,0,0,0,0.33,0.03,Wolves
+Wolves,45,59,2.0,2148,0,4,5,0.78,1.17,Wolves
+Wolves,39,2,0.0,69,0,0,0,0.06,0.10,Wolves
+Wolves,55,2,0.0,46,0,0,0,0.04,0.01,Wolves
+Wolves,51,28,0.0,560,1,0,1,0.37,0.64,Wolves
+Wolves,43,41,1.0,1520,0,0,4,0.45,0.08,Wolves
+Wolves,50,26,1.0,557,1,1,1,2.52,0.94,Wolves
+Wolves,53,100,7.0,2067,9,2,4,6.43,0.60,Wolves
+Wolves,43,53,2.0,1803,0,1,5,0.07,0.52,Wolves
+Wolves,39,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,50,44,2.0,1747,0,0,4,0.22,0.31,Wolves
+Wolves,54,8,0.0,235,0,0,0,0.15,0.10,Wolves
+Wolves,39,1,0.0,1,0,0,0,0.00,0.00,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,40,0,0.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,40,13,2.0,600,0,0,1,0.03,0.04,Wolves
+Wolves,8,53,6.0,0,0,0,0,0.00,0.00,Wolves
+Wolves,45,2,0.5,18,0,0,0,0.00,0.00,Wolves
+Wolves,50,20,5.5,338,1,1,2,1.93,0.03,Wolves
+Wolves,45,0,0.0,0,0,0,0,0.00,0.00,Wolves
