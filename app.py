@@ -2,7 +2,18 @@ from fastapi import FastAPI
 import pandas as pd
 import requests
 
+from fastapi.middleware.cors import CORSMiddleware
+
+
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # React default port
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def home():
@@ -80,14 +91,53 @@ def debug_captain():
         return {"error": f"❌ Debugging failed: {str(e)}"}
 
 
+import json
+
 @app.get("/transfers")
 def get_transfers():
-    df = pd.read_csv("predictions.csv")
-    if "name" not in df.columns or "predicted_points" not in df.columns:
-        return {"error": "❌ Missing required columns in predictions.csv!"}
+    try:
+        # Load player predictions
+        df = pd.read_csv("predictions.csv")
+        df = df.rename(columns={"player": "name"})  # Ensure consistent naming
 
-    best_transfers = df.nlargest(5, "predicted_points")[["name", "predicted_points"]]
-    return best_transfers.to_dict(orient="records")
+        # Load fixture data from JSON
+        with open("fixtures.json", "r") as f:
+            fixtures_data = json.load(f)
+
+        # Ensure required columns exist
+        if "name" not in df.columns or "predicted_points" not in df.columns:
+            return {"error": "❌ Missing required columns in predictions.csv!"}
+
+        # Opponent defensive strength mapping (update with real values)
+        opponent_defense = {1: 15, 2: 10, 3: 12, 4: 14, 5: 11}  # Example values
+
+        # Extract next 5 fixtures for each player
+        fixture_difficulties = {}
+        for fixture in fixtures_data:  # Assuming it's a list of match fixtures
+            player_name = fixture.get("player")  # Adjust key names as needed
+            opponent_team = fixture.get("team_a")  # Adjust key names as needed
+            if player_name and opponent_team:
+                fixture_difficulties.setdefault(player_name, []).append(opponent_defense.get(opponent_team, 10))
+
+        # Calculate average fixture difficulty for each player
+        df["fixture_difficulty"] = df["name"].map(lambda x: sum(fixture_difficulties.get(x, [10])) / 5)
+
+        # Adjust predicted points based on fixture difficulty
+        df["adjusted_score"] = df["predicted_points"] - (df["fixture_difficulty"] / 5)
+
+        # Get top 5 recommended transfers
+        best_transfers = df.nlargest(5, "adjusted_score")[["name", "predicted_points", "fixture_difficulty", "adjusted_score"]]
+
+        return best_transfers.to_dict(orient="records")
+
+    except Exception as e:
+        return {"error": f"❌ Transfers endpoint failed: {str(e)}"}
+
+
+
+
+
+
 
 @app.get("/injuries")
 def get_injuries():
@@ -106,3 +156,8 @@ def get_injuries():
     ]
 
     return {"injuries": injured_players}
+
+
+
+
+
