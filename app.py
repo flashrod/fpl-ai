@@ -38,7 +38,7 @@ def update_fpl_data():
 
 # Scheduler to run updates every hour
 scheduler = BackgroundScheduler()
-scheduler.add_job(update_fpl_data, "interval", minutes=1)
+scheduler.add_job(update_fpl_data, "interval", hours=24)
 
 scheduler.start()
 

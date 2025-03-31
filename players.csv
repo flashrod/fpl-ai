@@ -1,8 +1,8 @@
 id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,assists,clean_sheets,selected_by_percent
 328,Mohamed,Salah,12,13.7,306,15.0,2570,27,17,12,69.9
-182,Cole,Palmer,6,10.8,181,0.5,2442,14,8,6,48.7
+182,Cole,Palmer,6,10.8,181,0.5,2442,14,8,6,48.6
 99,Bryan,Mbeumo,4,8.1,179,4.0,2605,15,6,6,40.8
-447,Chris,Wood,16,7.3,174,2.0,2343,18,3,14,45.7
+447,Chris,Wood,16,7.3,174,2.0,2343,18,3,14,45.6
 351,Erling,Haaland,13,14.8,171,4.5,2480,21,3,7,30.6
 401,Alexander,Isak,15,9.3,169,2.0,2053,19,5,8,54.0
 366,Bruno,Borges Fernandes,14,8.6,152,13.0,2375,8,11,8,20.0
@@ -10,7 +10,7 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 58,Ollie,Watkins,2,8.9,147,9.0,2052,13,6,7,17.8
 541,Matheus,Santos Carneiro Da Cunha,20,6.9,143,0.0,2143,13,4,5,6.8
 327,Luis,Díaz,12,7.5,138,6.0,1845,9,6,13,15.4
-311,Trent,Alexander-Arnold,12,7.3,135,2.0,2144,2,6,12,24.5
+311,Trent,Alexander-Arnold,12,7.3,135,2.0,2144,2,6,12,24.4
 110,Yoane,Wissa,4,6.6,132,5.0,2111,13,3,6,16.9
 443,Matz,Sels,16,5.1,125,4.5,2610,0,1,12,18.7
 514,Jarrod,Bowen,19,7.6,125,3.5,2187,7,8,6,9.9
@@ -31,7 +31,7 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 54,Morgan,Rogers,2,5.5,113,3.0,2337,7,5,5,16.2
 585,Ismaïla,Sarr,7,5.7,113,11.0,1927,7,4,8,5.4
 398,Anthony,Gordon,15,7.4,113,0.0,2107,6,6,9,8.4
-211,Daniel,Muñoz,7,5.1,112,6.0,2344,3,5,9,16.6
+211,Daniel,Muñoz,7,5.1,112,6.0,2344,3,5,9,16.7
 78,Antoine,Semenyo,3,5.7,111,1.0,2465,7,5,7,9.0
 129,João Pedro,Junqueira de Jesus,5,5.6,111,5.0,1698,8,6,6,15.0
 336,Dominik,Szoboszlai,12,6.4,111,1.0,1948,5,7,10,3.9
@@ -43,9 +43,9 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 268,Liam,Delap,10,5.6,108,2.0,2172,10,2,3,3.4
 364,Amad,Diallo,14,5.3,107,0.0,1591,6,7,6,4.6
 17,Bukayo,Saka,1,10.2,107,0.0,1268,5,11,6,8.9
-350,Joško,Gvardiol,13,6.0,106,1.5,2468,5,0,7,23.0
+350,Joško,Gvardiol,13,6.0,106,1.5,2468,5,0,7,23.1
 201,Dean,Henderson,7,4.6,106,10.0,2520,0,0,9,13.6
-70,Milos,Kerkez,3,5.2,105,4.0,2537,2,6,6,18.9
+70,Milos,Kerkez,3,5.2,105,4.0,2537,2,6,6,19.0
 106,Kevin,Schade,4,5.1,104,2.0,1562,7,4,7,1.2
 394,Bruno,Guimarães Rodriguez Moura,15,6.1,103,11.0,2424,3,6,9,2.3
 436,Murillo,Santiago Costa dos Santos,16,4.7,102,4.5,2478,1,0,11,3.7
@@ -53,7 +53,7 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 530,Tomáš,Souček,19,4.9,101,6.0,2081,7,2,6,1.6
 6,Jurriën,Timber,1,5.6,101,7.0,2199,1,2,10,5.2
 200,Marc,Guéhi,7,4.7,101,5.0,2430,3,2,9,8.7
-402,Jacob,Murphy,15,5.0,101,3.0,1676,5,8,7,3.9
+402,Jacob,Murphy,15,5.0,101,3.0,1676,5,8,7,4.0
 383,André,Onana,14,4.9,101,5.0,2610,0,0,8,5.7
 177,Noni,Madueke,6,6.0,100,0.0,1449,7,4,3,3.1
 306,Jamie,Vardy,11,5.3,100,2.0,2226,7,4,1,4.8
@@ -263,7 +263,7 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 338,Sepp,van den Berg,4,4.1,38,0.5,1774,0,1,2,1.8
 420,Joe,Willock,15,4.7,38,1.0,801,0,2,3,0.1
 120,Lewis,Dunk,5,4.2,38,0.0,1560,0,1,4,2.3
-755,Omar,Marmoush,13,7.3,38,6.5,474,4,1,2,14.9
+755,Omar,Marmoush,13,7.3,38,6.5,474,4,1,2,15.0
 257,Kenny,Tete,9,4.4,37,0.0,1262,0,2,2,0.2
 578,Riccardo,Calafiori,1,5.8,37,0.5,921,2,1,1,1.3
 528,Konstantinos,Mavropanos,19,4.3,37,1.5,1656,0,0,2,0.1
@@ -313,7 +313,7 @@ id,first_name,second_name,team,now_cost,total_points,form,minutes,goals_scored,a
 370,Christian,Eriksen,14,5.2,30,2.5,776,0,1,4,0.2
 272,George,Hirst,10,5.4,30,3.0,258,2,1,0,0.0
 264,Wes,Burns,10,4.8,30,0.0,922,0,1,1,0.0
-746,Eddie,Howe,15,1.5,29,9.0,0,0,0,0,7.6
+746,Eddie,Howe,15,1.5,29,9.0,0,0,0,0,7.7
 738,Andoni,Iraola,3,1.1,29,3.0,0,0,0,0,6.5
 588,Guido,Rodríguez,19,4.8,29,0.5,1016,0,0,3,0.1
 24,Benjamin,White,1,6.1,29,0.0,703,0,1,3,2.1
