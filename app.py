@@ -18,7 +18,6 @@ load_dotenv()
 app = FastAPI()
 MONGO_URI = os.getenv("MONGO_URI")
 client = pymongo.MongoClient(MONGO_URI)
-client = pymongo.MongoClient("mongodb+srv://flashsweats:rachillesheel123@cluster0.5s4mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["fpl_db"]
 players_collection = db["players"]
 fixtures_collection = db["fixtures"]
@@ -39,7 +38,8 @@ def update_fpl_data():
 
 # Scheduler to run updates every hour
 scheduler = BackgroundScheduler()
-scheduler.add_job(update_fpl_data, "interval", hours=1)
+scheduler.add_job(update_fpl_data, "interval", minutes=1)
+
 scheduler.start()
 
 
@@ -252,3 +252,9 @@ def get_captain():
 
     except Exception as e:
         return {"error": f"❌ Captain selection failed: {str(e)}"}
+
+
+
+# Ensure APScheduler stops on exit
+import atexit
+atexit.register(lambda: scheduler.shutdown())
