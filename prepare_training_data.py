@@ -1,7 +1,11 @@
 import pymongo
 import pandas as pd
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-client = pymongo.MongoClient("mongodb+srv://flashsweats:rachillesheel123@cluster0.5s4mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.getenv("MONGO_URI")
+client = pymongo.MongoClient(MONGO_URI)
 db = client["fpl_db"]
 players_collection = db["players"]
 live_stats_collection = db["live_stats"]

@@ -4,11 +4,45 @@ import json
 import os
 import requests
 import numpy as np
+import subprocess
 from typing import List
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+import requests
+import pymongo
+from apscheduler.schedulers.background import BackgroundScheduler
+from dotenv import load_dotenv
+load_dotenv()
+
 
 app = FastAPI()
+MONGO_URI = os.getenv("MONGO_URI")
+client = pymongo.MongoClient(MONGO_URI)
+client = pymongo.MongoClient("mongodb+srv://flashsweats:rachillesheel123@cluster0.5s4mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db = client["fpl_db"]
+players_collection = db["players"]
+fixtures_collection = db["fixtures"]
+
+def update_fpl_data():
+    try:
+        print("🔄 Updating FPL data...")
+        
+        # Run existing scripts to fetch data
+        subprocess.run(["python", "fetch_fpl_data.py"])
+        subprocess.run(["python", "fetch_injuries.py"])
+        subprocess.run(["python", "check_fixtures.py"])
+        subprocess.run(["python", "process_fpl_data.py"])  # Process and store in MongoDB
+
+        print("✅ FPL data updated successfully!")
+    except Exception as e:
+        print(f"❌ Error updating FPL data: {e}")
+
+# Scheduler to run updates every hour
+scheduler = BackgroundScheduler()
+scheduler.add_job(update_fpl_data, "interval", hours=1)
+scheduler.start()
+
+
 
 # ✅ CORS Middleware - Move to the top
 app.add_middleware(
@@ -19,9 +53,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+
+
+
 @app.get("/")
 def home():
     return {"message": "API is running!"}
+
+
+
+
+
 
 
 # ✅ Players Endpoint with File Existence Check
@@ -171,8 +214,6 @@ def team_rating(team_input: TeamInput):
 
 
 
-from fastapi import FastAPI
-import pandas as pd
 
 app = FastAPI()
 
