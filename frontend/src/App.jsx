@@ -1,25 +1,25 @@
-import Captain from "./components/Captain";
-import Transfers from "./components/Transfers";
-import Injuries from "./components/Injuries";
-import PlayerSearch from "./components/PlayerSearch";
-import PlayerComparison from "./components/PlayerComparison";
-import TeamRating from "./components/TeamRating";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Dashboard from './pages/Dashboard';
+import Players from './pages/Players';
+import Injuries from './pages/Injuries';
+import Transfers from './pages/Transfers';
+import TeamBuilder from './pages/TeamBuilder';
 
 function App() {
-    return (
-        <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
-            <h1 className="text-3xl font-bold mb-4">FPL AI Assistant</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-5xl">
-                <PlayerSearch />
-                <Transfers />
-                <Captain />
-                <Injuries />
-                <TeamRating />
-                
-            </div>
-        </div>
-    );
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="players" element={<Players />} />
+          <Route path="injuries" element={<Injuries />} />
+          <Route path="transfers" element={<Transfers />} />
+          <Route path="team-builder" element={<TeamBuilder />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

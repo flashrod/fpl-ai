@@ -1,0 +1,39 @@
+// File structure for our FPL frontend app
+
+/fpl-frontend
+  /public
+    index.html
+    favicon.ico
+  /src
+    /components
+      Header.tsx
+      Sidebar.tsx
+      PlayerCard.tsx
+      PlayerTable.tsx
+      InjuryTable.tsx
+      TeamBuilder.tsx
+      CaptainSelector.tsx
+      TeamRating.tsx
+      TransferHub.tsx
+      LoadingSpinner.tsx
+    /pages
+      Dashboard.tsx
+      Players.tsx
+      Injuries.tsx
+      Transfers.tsx
+      TeamBuilder.tsx
+    /types
+      index.ts
+    /hooks
+      useFplData.tsx
+    /utils
+      apiClient.ts
+    /context
+      FplContext.tsx
+    App.tsx
+    index.tsx
+    index.css
+  package.json
+  tsconfig.json
+  vite.config.ts
+  .env
